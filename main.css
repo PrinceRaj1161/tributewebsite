@@ -1,0 +1,80 @@
+body 
+{
+    margin: 0px;
+    font-family: 'Nunito Sans', sans-serif;
+    letter-spacing: 0.10rem;
+}
+
+.container
+{
+    padding: 10%;
+    margin: 0px;
+    background-color: #404E4D;
+    color: white;
+}
+
+.intro 
+{
+    display: flex;
+    max-width: 740px;
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 0.20rem;
+}
+
+img  
+{
+    border-radius: 50%;
+    margin-right: 40px;
+    border: 5px solid #0D1321;
+}
+
+@media screen and (max-width:490px) 
+{
+    .intro 
+    {
+        flex-direction: column;
+    }
+}
+
+.footer 
+{
+    float: right;
+}
+
+.container 
+{
+    border: 10px #820933 solid;
+}
+
+a 
+{
+    color: #FFBFB7;
+}
+
+.biotitle 
+{
+    text-transform: capitalize;
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 0.20rem;
+    font-size: 2.5rem;
+
+}
+
+.title 
+{
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 0.20rem;
+    font-size: 2.5rem;
+}
+
+.name h1 
+{
+    font-size: 2.7rem;
+    margin-bottom: 0px;
+}
+
+.name h4
+{
+    margin-top: 0px;
+    float: right;
+}
